@@ -38,7 +38,7 @@ module.exports = function(webpackEnv) {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        titel: 'react app',
+        title: 'react app',
         filename: 'index.html',
         template: './public/index.html'
       })
